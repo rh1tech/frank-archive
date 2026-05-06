@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+._*
+
+# KiCad temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+.refactor-backup-*/
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+*.lck
+\#auto_saved_files#
+\#auto_saved_files\#
+*.round-tracks-config
+
+# Netlist files (exported from Eeschema)
+*.net
+*.xml
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.csv
+
+# Editor / tooling state
+.history/
+.vscode/
+.idea/
